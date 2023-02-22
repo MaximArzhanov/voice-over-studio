@@ -1,0 +1,9 @@
+.about {
+    display: grid;
+    grid-template-columns: minmax(min-content, 700px);
+    justify-content: center;
+    row-gap: 10px;
+
+
+    background-color: yellow;
+}

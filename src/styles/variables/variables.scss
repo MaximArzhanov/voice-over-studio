@@ -1,5 +1,12 @@
 $primary-color: green;
 $secondary-color: red;
+$primary-font-color: #000;
+
+
+
+
+
+
 
 // Боковые отступы для всего контента на странице
 $desktop-side-offset: 24px;
@@ -10,6 +17,11 @@ $mobile-side-offset: 8px;
 $desktop-offset-between-blocks: 36px;
 $tablet-offset-between-blocks: 24px;
 $mobile-offset-between-blocks: 12px;
+
+// Отступы между секций
+$desktop-offset-between-sections: 24px;
+$tablet-offset-between-sections: 18px;
+$mobile-offset-between-sections: 12px;
 
 // Брейкпоинты для медиазапросов
 $breakpoint-desktop: 1025px;

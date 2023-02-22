@@ -1,0 +1,4 @@
+.about__paragraph {
+    @extend %desktop-paragrpaph-font;
+    color: $primary-font-color;
+}
