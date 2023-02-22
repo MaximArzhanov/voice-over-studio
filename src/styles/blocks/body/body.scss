@@ -1,6 +1,5 @@
-$primary-color: red;
-
 .body {
+    height: 100vh;
     display: grid;
-    background-color: $primary-color;
+    grid-template-columns: auto minmax(auto, 1366px) auto;
 }

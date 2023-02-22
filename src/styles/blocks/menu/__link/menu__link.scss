@@ -1,0 +1,17 @@
+.menu__link {
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    transition: all .2s ease;
+    cursor: pointer;
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .menu__link:hover {
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+}

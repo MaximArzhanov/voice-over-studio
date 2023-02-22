@@ -1,2 +1,26 @@
-@import url('../blocks/body/body.scss');
-@import url('../blocks/page/page.scss');
+// Переменные
+@import '../variables/variables';
+
+// Сброс браузерных стилей
+@import '../vendor/normolize';
+
+// Блок body
+@import '../blocks/body/body';
+
+// Блок page
+@import '../blocks/page/page';
+
+// Блок header
+@import '../blocks/header/header';
+
+// Блок main
+@import '../blocks/main/main';
+
+// Блок footer
+@import '../blocks/footer/footer';
+
+// Блок menu
+@import '../blocks/menu/menu';
+@import '../blocks/menu/__list/menu__list';
+@import '../blocks/menu/__item/menu__item';
+@import '../blocks/menu/__link/menu__link';
