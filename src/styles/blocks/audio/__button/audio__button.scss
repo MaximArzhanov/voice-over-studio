@@ -1,0 +1,21 @@
+.audio__button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .audio__button:hover {
+        opacity: .7;
+    }
+}

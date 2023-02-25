@@ -1,0 +1,7 @@
+.audio__controls {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content);
+    justify-content: center;
+    gap: 20px;
+}

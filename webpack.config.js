@@ -29,13 +29,12 @@ module.exports = {
         type: "asset/resource",
       },
       {
+        test: /\.mp3$/,
+        loader: 'file-loader'
+      },
+      {
         test: /\.(scss|css)$/,
         use: [
-          // MiniCssExtractPlugin.loader,
-          // {
-          //   loader: "css-loader",
-          //   options: { importLoaders: 1 },
-          // },
           MiniCssExtractPlugin.loader,
           {
             loader: "css-loader",

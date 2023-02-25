@@ -2,22 +2,22 @@
 %desktop-paragrpaph-font {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 26px;
 }
 
 %tablet-paragrpaph-font {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    font-weight: 500;
-    line-height: 22px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 %mobile-paragrpaph-font {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 22px;
 }
 
 // Заголовки
@@ -62,4 +62,26 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
+}
+
+// Имена актёров
+%desktop-actor-name-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+%tablet-actor-name-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+%mobile-actor-name-font {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
 }

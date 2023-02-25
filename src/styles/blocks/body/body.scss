@@ -1,4 +1,5 @@
 .body {
+    background-color: $background-color;
     height: 100vh;
     display: grid;
     grid-template-columns: auto minmax(auto, 1366px) auto;

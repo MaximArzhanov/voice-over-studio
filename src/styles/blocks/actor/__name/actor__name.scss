@@ -1,0 +1,5 @@
+.actor__name {
+    margin: 0;
+    @extend %desktop-actor-name-font;
+    color: $text-color;
+}

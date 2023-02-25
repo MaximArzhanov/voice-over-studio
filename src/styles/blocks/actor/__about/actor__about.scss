@@ -1,0 +1,11 @@
+.actor__about {
+    margin: 0;
+    @extend %desktop-paragrpaph-font;
+    color: $text-color;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .actor__about {
+        // @extend %tablet-paragrpaph-font;
+    }
+}
