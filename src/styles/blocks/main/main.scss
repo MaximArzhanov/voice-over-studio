@@ -1,5 +1,8 @@
 .main {
     grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: $desktop-offset-between-sections;
 
     background-color: red;
 }
