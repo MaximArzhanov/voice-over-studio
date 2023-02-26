@@ -1,9 +1,5 @@
 .footer {
-    padding: 24px 34px;
-    box-sizing: border-box;
-    border-top-left-radius: $border-radius;
-    border-top-right-radius: $border-radius;
     background-color: $primary-color;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr;
 }

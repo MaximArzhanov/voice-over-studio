@@ -1,14 +1,6 @@
 .page {
-    grid-column: 2/3;
     display: grid;
+    width: 100%;
     grid-template-columns: $desktop-side-offset 1fr $desktop-side-offset;
     row-gap: $desktop-offset-between-blocks;
-
-
-
-
-
-
-
-    height: 100%;
 }
