@@ -1,12 +1,6 @@
 .header {
-    padding: 12px 0;
+    padding: 12px 0 12px 10px;
     box-sizing: border-box;
-    grid-column: 2/3;
     display: grid;
-    grid-template-columns: minmax(min-content, 500px);
-    justify-content: end;
-
-
-    background-color: red;
-    height: 100px;
+    grid-template-columns: auto auto;
 }

@@ -1,7 +1,10 @@
 .menu {
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-
-    background-color: blue;
+    border-radius: 20px;
+    background-color: $primary-color;
 }

@@ -1,6 +1,9 @@
 .footer {
-    grid-column: 2/3;
-
-    background-color: red;
-    height: 300px;
+    padding: 24px 34px;
+    box-sizing: border-box;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    background-color: $primary-color;
+    display: grid;
+    grid-template-columns: auto auto;
 }

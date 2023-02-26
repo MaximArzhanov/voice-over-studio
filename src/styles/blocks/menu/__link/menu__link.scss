@@ -1,7 +1,9 @@
 .menu__link {
-    color: $primary-font-color;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: $primary-color;
     text-transform: uppercase;
+    text-underline-offset: 0.2em;
     @extend %desktop-menu-font;
     transition: all .2s ease;
     cursor: pointer;
@@ -10,6 +12,7 @@
 @media (min-width: $breakpoint-desktop) {
     .menu__link:hover {
         color: #fff;
-        border-bottom: 1px solid #fff;
+        text-decoration: underline;
+        text-decoration-color: #fff;
     }
 }

@@ -1,6 +1,6 @@
-.about__title {
+.actors__title {
     margin: 10px 0;
+    margin-left: 10px;
     @extend %desktop-title-font;
     color: $primary-font-color;
-    justify-self: center;
 }

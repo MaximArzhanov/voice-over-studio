@@ -12,8 +12,9 @@
   <body class="body">
     <div class="page">
 
-      <header class="header">
-        <nav class="menu">
+      <header class="header page__header">
+        <a href="#" class="logo header__logo"></a>
+        <nav class="menu header__menu">
           <ul class="menu__list">
             <li class="menu__item"><a href="#" class="menu__link">О нас</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Актёры</a></li>
@@ -22,10 +23,10 @@
         </nav>
       </header>
 
-      <main class="main">
+      <main class="main page__main">
 
         <section class="about">
-          <h1 class="about__title">Студия озвучания</h1>
+          <h1 class="about__title">Voice4u</h1>
           <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -41,6 +42,7 @@
         </section>
 
         <section class="actors">
+          <h2 class="actors__title">Актёры</h2>
           <article class="actor">
             <div class="actor__photo-wrapper">
               <img class="actor__photo" src="<%=require('./images/actors/cat_1.jpg')%>" alt="Альтернативный текст">
@@ -179,10 +181,21 @@
             </aside>
           </article>
 
-        <section class="contacts"></section>
+        </section>
+
+        <section class="contacts">
+          <h2 class="contacts__title">Контакты</h2>
+          <div class="contacts__container">
+            <span class="contacts__phone-icon"></span>
+            <span class="contacts__phone">+7 (903) 640-71-12</span>
+          </div>
+        </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer page__footer">
+        <a href="#" class="logo footer__logo"></a>
+        <span class="footer__copyright">&copy; 2023 Voice4u </span>
+      </footer>
 
     </div>
   </body>
