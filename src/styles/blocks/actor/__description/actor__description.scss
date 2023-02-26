@@ -5,3 +5,9 @@
     align-content: start;
     border-radius: $border-radius;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .actor__description {
+        gap: 8px;
+    }
+}

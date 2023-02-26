@@ -4,3 +4,11 @@
     @extend %desktop-title-font;
     color: $primary-font-color;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .actors__title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+}

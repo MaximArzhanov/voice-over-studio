@@ -5,3 +5,11 @@
     justify-self: center;
     text-align: justify;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .about__paragraph {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}

@@ -1,15 +1,13 @@
-import file1 from '../audio/classic_1.mp3';
-import file2 from '../audio/classic_2.mp3';
-import file3 from '../audio/classic_3.mp3';
-import file4 from '../audio/classic_4.mp3';
-
+import file1 from '../audio/audio_1.mp3';
+import file2 from '../audio/audio_2.mp3';
+import file3 from '../audio/audio_3.mp3';
+import file4 from '../audio/audio_4.mp3';
+import file5 from '../audio/audio_5.mp3';
+import file6 from '../audio/audio_6.mp3';
 import WaveSurfer from "wavesurfer.js";
 
 // Массив объектов с аудио на странице
 let initializedAudios = [];
-
-const audios_Nodelist = document.querySelectorAll('.audio');
-const audios_Array = Array.from(audios_Nodelist);
 
 const initializeAudio = (audio, file) => {
     const audioWaveform = audio.querySelector('.audio__waveform');
@@ -17,12 +15,15 @@ const initializeAudio = (audio, file) => {
     const buttonDownload = audio.querySelector('.audio__button_type_download');
 
     // Для загрузки файла
-    buttonDownload.download = file1;
+    buttonDownload.download = file;
+    buttonDownload.href = file;
     
     // Инициализация формы проигрывателя
     const wavesurfer = WaveSurfer.create({
         container: audioWaveform,
         responsive: true,
+        height: 80,
+        normalize: true,
         hideScrollbar: true,
         progressColor: '#666',
         waveColor: '#003A97'
@@ -66,6 +67,23 @@ const initializeAudio = (audio, file) => {
     buttonPlayToggle.addEventListener('click', handleClickPlayToggle)
 }
 
-audios_Array.forEach((audio) => {
-    initializeAudio(audio, file1);
-});
+const actor1 = document.querySelector('#actor1');
+const actor2 = document.querySelector('#actor2');
+const actor3 = document.querySelector('#actor3');
+const actor4 = document.querySelector('#actor4');
+const actor5 = document.querySelector('#actor5');
+const actor6 = document.querySelector('#actor6');
+
+const audio1 = actor1.querySelector('.audio');
+const audio2 = actor2.querySelector('.audio');
+const audio3 = actor3.querySelector('.audio');
+const audio4 = actor4.querySelector('.audio');
+const audio5 = actor5.querySelector('.audio');
+const audio6 = actor6.querySelector('.audio');
+
+initializeAudio(audio1, file1);
+initializeAudio(audio2, file2);
+initializeAudio(audio3, file3);
+initializeAudio(audio4, file4);
+initializeAudio(audio5, file5);
+initializeAudio(audio6, file6);

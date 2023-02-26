@@ -4,3 +4,10 @@
     grid-template-columns: $desktop-side-offset 1fr $desktop-side-offset;
     row-gap: $desktop-offset-between-blocks;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .page {
+        grid-template-columns: $mobile-side-offset 1fr $mobile-side-offset;
+        row-gap: $mobile-offset-between-blocks;
+    }
+}

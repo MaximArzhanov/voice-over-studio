@@ -3,3 +3,11 @@
     @extend %desktop-actor-name-font;
     color: $text-color;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .actor__name {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+}

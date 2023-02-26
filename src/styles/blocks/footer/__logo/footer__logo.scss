@@ -4,3 +4,11 @@
     height: 60px;
     align-self: center;
 }
+
+@media (max-width: $breakpoint-tablet) {
+    .footer__logo {
+        background-size: 40px 40px;
+        width: 40px;
+        height: 40px;
+    }
+}

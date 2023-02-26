@@ -3,3 +3,9 @@
     grid-template-columns: 1fr;
     row-gap: $desktop-offset-between-sections;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .main {
+        row-gap: $mobile-offset-between-sections;
+    }
+}

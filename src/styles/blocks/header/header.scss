@@ -4,3 +4,11 @@
     display: grid;
     grid-template-columns: auto auto;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .header {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+        padding: 8px;
+    }
+}

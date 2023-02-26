@@ -5,3 +5,9 @@
     align-self: center;
     justify-self: start;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .header__logo {
+        justify-self: center;
+    }
+}

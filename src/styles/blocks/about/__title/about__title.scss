@@ -4,3 +4,13 @@
     color: $primary-font-color;
     justify-self: center;
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .about__title {
+        margin-top: 4px;
+        margin-bottom: 4px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+}

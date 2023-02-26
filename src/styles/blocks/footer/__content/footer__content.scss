@@ -7,3 +7,9 @@
     display: grid;
     grid-template-columns: auto auto;
 }
+
+@media (max-width: $breakpoint-tablet) {
+    .footer__content {
+        padding: 12px;
+    }
+}
