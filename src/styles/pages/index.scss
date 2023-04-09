@@ -54,15 +54,6 @@
 @import '../blocks/actor/__photo/actor__photo.scss';
 @import '../blocks/actor/__photo-wrapper/actor__photo-wrapper.scss';
 
-// Блок audio
-@import '../blocks/audio/audio.scss';
-@import '../blocks/audio/__button/audio__button.scss';
-@import '../blocks/audio/__button/_type/audio__button_type_download.scss';
-@import '../blocks/audio/__button/_type/audio__button_type_pause.scss';
-@import '../blocks/audio/__button/_type/audio__button_type_play.scss';
-@import '../blocks/audio/__controls/audio__controls.scss';
-@import '../blocks/audio/__waveform/audio__waveform.scss';
-
 // Блок contacts
 @import '../blocks/contacts/contacts.scss';
 @import '../blocks/contacts/__container/contacts__container.scss';
@@ -75,3 +66,6 @@
 @import '../blocks/footer/__content/footer__content.scss';
 @import '../blocks/footer/__logo/footer__logo.scss';
 @import '../blocks/footer/__copyright/footer__copyright.scss';
+
+// Блок footer
+@import '../blocks/photo-corrector/photo-corrector.scss';

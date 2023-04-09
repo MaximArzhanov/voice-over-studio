@@ -1,14 +1,22 @@
 .footer__logo {
-    background-size: 60px 60px;
-    width: 60px;
+    background-size: 120px 60px;
+    width: 120px;
     height: 60px;
     align-self: center;
+    color: #ffffff;
+    font-family: Roboto, 'sans-serif';
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 @media (max-width: $breakpoint-tablet) {
     .footer__logo {
-        background-size: 40px 40px;
-        width: 40px;
+        background-size: 80px 40px;
+        width: 80px;
         height: 40px;
     }
 }
