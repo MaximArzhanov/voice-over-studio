@@ -1,0 +1,70 @@
+// Переменные
+@import '../variables/variables';
+
+// Классы
+@import '../classes/typography';
+
+// Сброс браузерных стилей
+@import '../vendor/normolize';
+
+// Блок body
+@import '../blocks/body/body';
+
+// Блок page
+@import '../blocks/page/page';
+@import '../blocks/page/__header/page__header.scss';
+@import '../blocks/page/__main/page__main';
+@import '../blocks/page/__footer/page__footer';
+
+// Блок logo
+@import '../blocks/logo/logo.scss';
+
+// Блок header
+@import '../blocks/header/header';
+@import '../blocks/header/__logo/header__logo.scss';
+@import '../blocks/header/__menu/header__menu.scss';
+
+// Блок main
+@import '../blocks/main/main';
+
+// Блок footer
+@import '../blocks/footer/footer';
+
+// Блок menu
+@import '../blocks/menu/menu';
+@import '../blocks/menu/__list/menu__list';
+@import '../blocks/menu/__item/menu__item';
+@import '../blocks/menu/__link/menu__link';
+
+// Блок profile
+@import '../blocks/profile/profile.scss';
+@import '../blocks/profile/__about/profile__about.scss';
+@import '../blocks/profile/__description/profile__description.scss';
+@import '../blocks/profile/__name/profile__name.scss';
+@import '../blocks/profile/__photo-wrapper/profile__photo-wrapper.scss';
+@import '../blocks/profile/__photo/profile__photo.scss';
+@import '../blocks/profile/__audios/profile__audios.scss';
+@import '../blocks/profile/__videos/profile__videos.scss';
+
+// Блок audios
+@import '../blocks/audios/audios.scss';
+@import '../blocks/audios/__title/audios__title.scss';
+@import '../blocks/audios/__container/audios__container.scss';
+@import '../blocks/audios/__audio/audios__audio.scss';
+@import '../blocks/audios/__figure/audios__figure.scss';
+@import '../blocks/audios/__caption/audios__caption.scss';
+
+// Блок videos
+@import '../blocks/videos/videos.scss';
+@import '../blocks/videos/__title/videos__title.scss';
+@import '../blocks/videos/__container/videos__container.scss';
+@import '../blocks/videos/__video/videos__video.scss';
+
+// Блок profile
+@import '../blocks/profile/profile.scss';
+
+// Блок footer
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__content/footer__content.scss';
+@import '../blocks/footer/__logo/footer__logo.scss';
+@import '../blocks/footer/__copyright/footer__copyright.scss';

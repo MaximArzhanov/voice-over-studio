@@ -1,0 +1,12 @@
+.videos__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: start;
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .videos__container {
+        grid-template-columns: 1fr;
+    }
+}

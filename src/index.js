@@ -1,2 +1,2 @@
 import './styles/pages/index.scss';
-import './scripts/file.js'
+import './styles/pages/profile.scss';

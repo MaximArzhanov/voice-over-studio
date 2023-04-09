@@ -1,0 +1,19 @@
+.profile__description {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    align-content: start;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .profile__description {
+        grid-column: 1/2;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .profile__description {
+        gap: 6px;
+    }
+}

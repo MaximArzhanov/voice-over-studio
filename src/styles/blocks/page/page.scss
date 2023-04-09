@@ -1,6 +1,8 @@
 .page {
     display: grid;
     width: 100%;
+    min-height: 100vh;
+    align-items: start;
     grid-template-columns: $desktop-side-offset 1fr $desktop-side-offset;
     row-gap: $desktop-offset-between-blocks;
 }

@@ -1,0 +1,9 @@
+.profile__audios {
+    grid-column: 1/3;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .profile__audios {
+        grid-column: 1/2;
+    }
+}

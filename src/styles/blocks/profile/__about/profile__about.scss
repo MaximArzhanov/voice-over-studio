@@ -1,0 +1,13 @@
+.profile__about {
+    margin: 0;
+    @extend %desktop-paragrpaph-font;
+    color: $text-color;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .profile__about {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}

@@ -29,8 +29,11 @@ module.exports = {
         type: "asset/resource",
       },
       {
-        test: /\.mp3$/,
-        loader: 'file-loader'
+        test: /\.(mp3|wav|mp4)$/i,
+        loader: "file-loader",
+        options: {
+          name: "[path].[name].[ext]"
+        }
       },
       {
         test: /\.(scss|css)$/,
@@ -48,7 +51,15 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      filename: 'index.html',
+      template: './src/index.html',
+      chunks: ['main'],
+      inject: "body",
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'zhukovski_sergey.html',
+      template: './src/zhukovski_sergey.html',
+      chunks: ['main'],
       inject: "body",
     }),
     new CleanWebpackPlugin(),

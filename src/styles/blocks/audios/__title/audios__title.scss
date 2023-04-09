@@ -1,0 +1,13 @@
+.audios__title {
+    margin: 10px 0;
+    @extend %desktop-title-font;
+    color: $primary-font-color;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .audios__title {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+}

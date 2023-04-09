@@ -1,0 +1,20 @@
+.profile {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .profile {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .profile {
+        gap: 10px;
+    }
+}
