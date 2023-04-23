@@ -39,6 +39,7 @@
 // Блок about
 @import '../blocks/about/about.scss';
 @import '../blocks/about/__title/about__title.scss';
+@import '../blocks/about/__paragraphs/about__paragraphs.scss';
 @import '../blocks/about/__paragraph/about__paragraph.scss';
 
 // Блок actors
@@ -67,5 +68,6 @@
 @import '../blocks/footer/__logo/footer__logo.scss';
 @import '../blocks/footer/__copyright/footer__copyright.scss';
 
-// Блок footer
-@import '../blocks/photo-corrector/photo-corrector.scss';
+// Блок photo-correctors
+@import '../blocks/photo-corrector/__maria-zvereva/photo-corrector__maria-zvereva.scss';
+@import '../blocks/photo-corrector/__svetlana-karimova/photo-corrector__svetlana-karimova.scss';

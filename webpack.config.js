@@ -86,6 +86,12 @@ module.exports = {
       chunks: ['main'],
       inject: "body",
     }),
+    new HtmlWebpackPlugin({
+      filename: 'svetlana_karimova.html',
+      template: './src/svetlana_karimova.html',
+      chunks: ['main'],
+      inject: "body",
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
   ],

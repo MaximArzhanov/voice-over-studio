@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студия Voice4u</title>
+    <title>Студия V4Y</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
           <ul class="menu__list">
             <li class="menu__item"><a href="./index.html#about" class="menu__link">О нас</a></li>
             <li class="menu__item"><a href="./index.html#actors" class="menu__link">Актёры</a></li>
-            <li class="menu__item"><a href="./index.html#contacts" class="menu__link">Контакты</a></li>
+            <li class="menu__item"><a href="./#contacts" class="menu__link">Контакты</a></li>
           </ul>
         </nav>
       </header>
@@ -31,7 +31,7 @@
         <article class="profile">
 
           <div class="profile__photo-wrapper">
-            <img class="profile__photo photo-corrector" src="<%=require('./images/actors/maria_zvereva.jpg')%>" alt="Альтернативный текст">
+            <img class="profile__photo photo-corrector__maria-zvereva" src="<%=require('./images/actors/maria_zvereva.jpg')%>" alt="Альтернативный текст">
           </div>
 
           <div class="profile__description">
@@ -48,14 +48,22 @@
           <div class="videos profile__videos">
             <h2 class="videos__title">Видеофайлы</h2>
             <div class="videos__container">
-              <iframe loading="lazy" class="videos__video" src="https://www.youtube.com/embed/opWq1KBLUo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              <iframe loading="lazy" class="videos__video" src="https://www.youtube.com/embed/MnDtaY714oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              <iframe loading="lazy" class="videos__video" src="https://www.youtube.com/embed/nVo9S8OWyJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-              <iframe loading="lazy" class="videos__video" src="https://www.youtube.com/embed/tQPfX-0Gikk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe class="videos__video lazyload" data-src="https://www.youtube.com/embed/opWq1KBLUo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe class="videos__video lazyload" data-src="https://www.youtube.com/embed/MnDtaY714oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe class="videos__video lazyload" data-src="https://www.youtube.com/embed/nVo9S8OWyJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <iframe class="videos__video lazyload" data-src="https://www.youtube.com/embed/tQPfX-0Gikk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
               
         </article>
+
+        <section class="contacts" id="contacts">
+          <h2 class="contacts__title">Контакты</h2>
+          <a class="contacts__container" href="tel:+79036407112">
+            <span class="contacts__phone-icon"></span>
+            <span class="contacts__phone">+7 (903) 640-71-12</span>
+          </a>
+        </section>
 
       </main>
 
