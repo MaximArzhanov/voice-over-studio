@@ -1,12 +1,13 @@
 .footer__logo {
-    background-size: 120px 60px;
-    width: 120px;
-    height: 60px;
+    // background-size: 120px 60px;
+    // width: 120px;
+    // height: 60px;
     align-self: center;
     color: #ffffff;
     font-family: Roboto, 'sans-serif';
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
+    justify-self: start;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,8 +16,10 @@
 
 @media (max-width: $breakpoint-tablet) {
     .footer__logo {
-        background-size: 80px 40px;
-        width: 80px;
-        height: 40px;
+        font-size: 18px;
+        font-weight: 600;
+        // background-size: 80px 40px;
+        // width: 80px;
+        // height: 40px;
     }
 }

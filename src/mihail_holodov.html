@@ -16,7 +16,7 @@
     <div class="page">
 
       <header class="header page__header">
-        <a href="./index.html" class="logo header__logo"></a>
+        <a href="./index.html" class="logo header__logo" aria-label="Перейти на главную страницу"></a>
         <nav class="menu header__menu">
           <ul class="menu__list">
             <li class="menu__item"><a href="./index.html#about" class="menu__link">О нас</a></li>
@@ -31,7 +31,7 @@
         <article class="profile">
 
           <div class="profile__photo-wrapper">
-            <img class="profile__photo" src="<%=require('./images/actors/mihail_holodov.jpg')%>" alt="Альтернативный текст">
+            <img class="profile__photo lazyload" data-src="<%=require('./images/actors/mihail_holodov.jpg')%>" alt="Альтернативный текст">
           </div>
 
           <div class="profile__description">
@@ -58,7 +58,7 @@
           <div class="audios profile__audios">
             <h2 class="audios__title">Аудиофайлы</h2>
             <div class="audios__container">
-              <iframe class="lazyload" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1488554515%3Fsecret_token%3Ds-BpMMkUMKngZ&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/zhukovskij-sergej" title="Voice4u" target="_blank" style="color: #cccccc; text-decoration: none;">Voice4u</a> · <a href="https://soundcloud.com/zhukovskij-sergej/audiobook-sudba-eto-podarok-1/s-BpMMkUMKngZ" title="Audiobook Судьба - Это Подарок" target="_blank" style="color: #cccccc; text-decoration: none;">Audiobook Судьба - Это Подарок</a></div>
+              <iframe class="lazyload" width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" data-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1488554515%3Fsecret_token%3Ds-BpMMkUMKngZ&color=%230066cc&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
             </div>
           </div>
               
@@ -66,7 +66,7 @@
 
         <section class="contacts" id="contacts">
           <h2 class="contacts__title">Контакты</h2>
-          <a class="contacts__container" href="tel:+79036407112">
+          <a class="contacts__container" href="tel:+79036407112" aria-label="Позвонить в студию озвучания">
             <span class="contacts__phone-icon"></span>
             <span class="contacts__phone">+7 (903) 640-71-12</span>
           </a>
@@ -76,8 +76,8 @@
 
       <footer class="footer page__footer">
         <div class="footer__content">
-          <a href="./index.html" class="footer__logo">Voice4u</a>
-          <span class="footer__copyright">&copy; 2023 Voice4u </span>
+          <a href="./index.html" class="footer__logo">Студия V4Y</a>
+          <span class="footer__copyright">&copy; 2023 Студия V4Y</span>
         </div>
       </footer>
 

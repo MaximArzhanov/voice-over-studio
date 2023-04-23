@@ -2,9 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Студия V4Y - это творческое объединение актёров дубляжа и не только. V4Y - это просторная студия с профессиональным оборудованием и отличным оснащением">
+    <meta name="keywords" content="Студия озвучания, Дубляж, Актёры дубляжа, Озвучка">
+    <meta name="author" content="Maxim Arzhanov">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия V4Y</title>
+    <link rel="icon" type="image/x-icon" href="<%=require('./images/logo/microphone.svg')%>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -13,7 +17,7 @@
     <div class="page">
 
       <header class="header page__header">
-        <a href="#" class="logo header__logo"></a>
+        <a href="#" class="logo header__logo" aria-label="Перейти на главную страницу"></a>
         <nav class="menu header__menu">
           <ul class="menu__list">
             <li class="menu__item"><a href="#about" class="menu__link">О нас</a></li>
@@ -58,7 +62,7 @@
           <h2 class="actors__title">Актёры</h2>
 
           <article class="actor">
-            <a class="actor__link" href="./sergey_zhukovski.html" target="_blank">
+            <a class="actor__link" href="./sergey_zhukovski.html" target="_blank" aria-label="Перейти в профиль Сергея Жуковского">
               <div class="actor__photo-wrapper">
                 <img class="actor__photo lazyload" data-src="<%=require('./images/actors/sergey_zhukovski.jpg')%>" alt="Альтернативный текст">
               </div>
@@ -77,7 +81,7 @@
           </article>
 
           <article class="actor">
-            <a class="actor__link" href="./maria_zvereva.html" target="_blank">
+            <a class="actor__link" href="./maria_zvereva.html" target="_blank" aria-label="Перейти в профиль Марии Зверевой">
               <div class="actor__photo-wrapper">
                 <img class="actor__photo photo-corrector__maria-zvereva lazyload" data-src="<%=require('./images/actors/maria_zvereva.jpg')%>" alt="Альтернативный текст">
               </div>
@@ -95,7 +99,7 @@
           </article>
 
           <article class="actor">
-            <a class="actor__link" href="./mihail_holodov.html" target="_blank">
+            <a class="actor__link" href="./mihail_holodov.html" target="_blank" aria-label="Перейти в профиль Михаила Холодова">
               <div class="actor__photo-wrapper">
                 <img class="actor__photo lazyload" data-src="<%=require('./images/actors/mihail_holodov.jpg')%>" alt="Альтернативный текст">
               </div>
@@ -113,7 +117,7 @@
           </article>
 
           <article class="actor">
-            <a class="actor__link" href="./irina_macik.html" target="_blank">
+            <a class="actor__link" href="./irina_macik.html" target="_blank" aria-label="Перейти в профиль Ирины Мацик">
               <div class="actor__photo-wrapper">
                 <img class="actor__photo lazyload" data-src="<%=require('./images/actors/irina_macik.jpg')%>" alt="Альтернативный текст">
               </div>
@@ -131,7 +135,7 @@
           </article>
 
           <article class="actor">
-            <a class="actor__link" href="./elena_arzhanova.html" target="_blank">
+            <a class="actor__link" href="./elena_arzhanova.html" target="_blank" aria-label="Перейти в профиль Елены Аржановой">
               <div class="actor__photo-wrapper">
                 <img class="actor__photo lazyload" data-src="<%=require('./images/actors/elena_arzhanova.jpg')%>" alt="Альтернативный текст">
               </div>
@@ -149,7 +153,7 @@
           </article>
 
           <article class="actor">
-            <a class="actor__link" href="./svetlana_karimova.html" target="_blank">
+            <a class="actor__link" href="./svetlana_karimova.html" target="_blank" aria-label="Перейти в профиль Светланы Каримовой">
               <div class="actor__photo-wrapper">
                 <img class="actor__photo photo-corrector__svetlana-karimova lazyload" data-src="<%=require('./images/actors/svetlana_karimova.jpg')%>" alt="Альтернативный текст">
               </div>
@@ -170,7 +174,7 @@
 
         <section class="contacts" id="contacts">
           <h2 class="contacts__title">Контакты</h2>
-          <a class="contacts__container" href="tel:+79036407112">
+          <a class="contacts__container" href="tel:+79036407112" aria-label="Позвонить в студию озвучания">
             <span class="contacts__phone-icon"></span>
             <span class="contacts__phone">+7 (903) 640-71-12</span>
           </a>
@@ -179,8 +183,8 @@
 
       <footer class="footer page__footer">
         <div class="footer__content">
-          <a href="#" class="footer__logo">V4Y</a>
-          <span class="footer__copyright">&copy; 2023 V4Y</span>
+          <a href="#" class="footer__logo">Студия V4Y</a>
+          <span class="footer__copyright">&copy; 2023 Студия V4Y</span>
         </div>
       </footer>
 
