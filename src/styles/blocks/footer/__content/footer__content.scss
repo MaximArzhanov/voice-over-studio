@@ -6,6 +6,7 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: end;
 }
 
 @media (max-width: $breakpoint-tablet) {

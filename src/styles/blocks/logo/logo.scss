@@ -1,5 +1,24 @@
 .logo {
-    background-image: url(/src/images/logo/microphone.svg);
+    background-image: url(/src/images/logo/logo.svg);
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    @extend %desktop-title-font;
+    color: $primary-color;
+    padding-right: 30px;
+}
+
+.logo:hover {
+    color: $primary-color;
+}
+
+.logo:focus {
+    color: $primary-color;
+}
+
+.logo:active {
+    color: $primary-color;
 }

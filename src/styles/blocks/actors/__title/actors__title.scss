@@ -7,8 +7,9 @@
 
 @media (max-width: $breakpoint-mobile) {
     .actors__title {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 500;
-        line-height: 22px;
+        line-height: 16px;
+        margin-bottom: 0;
     }
 }

@@ -1,6 +1,6 @@
 .header__logo {
-    background-size: 48px 48px;
-    width: 48px;
+    background-size: 96px 48px;
+    width: 96px;
     height: 48px;
     align-self: center;
     justify-self: start;
@@ -8,6 +8,6 @@
 
 @media (max-width: $breakpoint-mobile) {
     .header__logo {
-        justify-self: start;
+        justify-self: center;
     }
 }

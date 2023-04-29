@@ -12,3 +12,10 @@
         line-height: 22px;
     }
 }
+
+@media (max-width: $breakpoint-mobile) {
+    .videos__title {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
