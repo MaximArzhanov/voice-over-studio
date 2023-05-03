@@ -4,6 +4,10 @@
     color: $text-color;
 }
 
+.actor__about ul li {
+    color: $text-color;
+}
+
 @media (max-width: $breakpoint-mobile) {
     .actor__about {
         font-size: 12px;

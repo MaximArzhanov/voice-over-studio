@@ -9,6 +9,7 @@
     box-shadow: $shadow;
     background-color: rgba(242, 242, 242, .5);
     transition: $transition;
+    flex-grow: 1;
 }
 
 @media (min-width: 768px) {

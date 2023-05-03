@@ -4,6 +4,10 @@
     color: $text-color;
 }
 
+.profile__about ul li {
+    color: $text-color;
+}
+
 @media (max-width: $breakpoint-tablet) {
     .profile__about {
         font-size: 16px;
