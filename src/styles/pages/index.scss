@@ -59,7 +59,9 @@
 @import '../blocks/contacts/contacts.scss';
 @import '../blocks/contacts/__container/contacts__container.scss';
 @import '../blocks/contacts/__phone-icon/contacts__phone-icon.scss';
+@import '../blocks/contacts/__email-icon/contacts__email-icon.scss';
 @import '../blocks/contacts/__phone/contacts__phone.scss';
+@import '../blocks/contacts/__email/contacts__email.scss';
 @import '../blocks/contacts/__title/contacts__title.scss';
 
 // Блок footer
@@ -71,6 +73,7 @@
 // Блок photo-correctors
 @import '../blocks/photo-corrector/__maria-zvereva/photo-corrector__maria-zvereva.scss';
 @import '../blocks/photo-corrector/__svetlana-karimova/photo-corrector__svetlana-karimova.scss';
+@import '../blocks/photo-corrector/__default/photo-corrector__default.scss';
 
 // Блок lazyload
 @import '../blocks/lazyload/lazyload.scss';

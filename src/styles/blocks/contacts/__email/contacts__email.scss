@@ -1,0 +1,19 @@
+.contacts__email {
+    @extend %desktop-paragrpaph-font;
+    color: $primary-font-color;
+}
+
+@media (max-width: $breakpoint-tablet) {
+    .contacts__email {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: $breakpoint-mobile) {
+    .contacts__email {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
